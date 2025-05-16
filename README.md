@@ -43,6 +43,23 @@ The App was developed as a group project as part of "Fundamentals of Web Enginee
    npm run dev
    ```
 
+## Snapshots
+
+The app follows a storyline of a rocket launching into space.
+
+Initially the rocket is on the floor and ready to launch.
+![Illustration of a Rocket on a launch site](images/home.png)
+
+When the user starts scrolling the rocket starts taking off.
+A parralax effect makes the scene feel more 3 dimensional.
+![A rocket taking off into the sunser](images/parallax.png)
+The rocket eventually reaches space where the page transitions into the 3D model of the solar system.
+![A 3D model of our solar system with all its planets](images/solar_system.png)
+By clicking on a planet the user is taken to an informational page about the planet and presented with various data.
+![An informational page about earth showing a 3d model of earth next to some overview information](images/planet_view.png)
+The image explorer allows the user to see NASA's astronomy picture of the day or browse through NASAS database itself by using the search field.
+![The image explorer page of the app showing NASA's astronomy picture of the day](images/image_explorer.png)
+
 ## License
 
 This project is licensed under ETH Zurich.
