@@ -1,0 +1,146 @@
+.main-view {
+  margin: 0;
+  padding: 0;
+
+  height: 100%; /* Important: everything breaks without this */
+}
+
+.scroll-container {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100dvh;
+}
+
+.ground {
+  position: relative;
+  width: 100vw;
+  min-height: 150dvh;
+  background-color: black;
+  background-image: url("/parallax/ground/Parallax_Drawing-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .parallax-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right bottom;
+  }
+}
+
+.sky {
+  position: relative;
+  min-height: calc(1.5 * 100dvh);
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgb(189, 133, 77) 0%,
+    rgb(189, 133, 77) 30%,
+    rgb(42, 47, 72) 65%,
+    rgb(34, 4, 70) 80%,
+    black 100%
+  );
+
+  .parallax-img {
+    min-width: 100%;
+    max-width: 100%;
+    aspect-ratio: fixed;
+  }
+}
+
+.space {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: black;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 330px;
+  right: 270px;
+  width: 100px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.fire {
+  position: absolute;
+  bottom: 200px;
+  right: 280px;
+  width: 100px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.title {
+  position: absolute;
+  bottom: 50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+  color: var(--text-color);
+
+  opacity: 0;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.scroll-release {
+  position: absolute;
+  bottom: var(--footer-height);
+  right: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .scrollReleaseIcon {
+    opacity: 0.5;
+  }
+
+  p {
+    font-size: 0.5em;
+    color: var(--text-color);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-aspect-ratio: 1 / 1) {
+  .ground {
+    min-height: 100dvh;
+  }
+}

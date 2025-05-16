@@ -1,0 +1,64 @@
+.heading {
+  grid-area: planet-head;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  height: 100%;
+}
+
+.visual {
+  grid-area: planet-visual;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+
+  position: relative;
+
+  min-height: 500px;
+
+  height: 100%;
+  overflow: hidden;
+
+  & .planet-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.information {
+  position: relative;
+  grid-area: planet-info;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: start;
+
+  gap: 10px;
+
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .planet {
+    min-height: 100%;
+
+    display: grid;
+    gap: var(--spacing);
+    grid-template-areas:
+      "planet-visual planet-info"
+      "planet-head planet-info"
+      "planet-navigation planet-navigation";
+
+    grid-template-rows: 1fr 50px;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .visual {
+    width: auto;
+  }
+}

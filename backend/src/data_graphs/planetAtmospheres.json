@@ -1,0 +1,60 @@
+{
+    "planets": [
+      {
+        "name": "Venus",
+        "atmosphere": [
+          { "name": "Carbon Dioxide", "percentage": 96 },
+          { "name": "Nitrogen", "percentage": 3.5 },
+          { "name": "Sulphuric Acid", "percentage": 0.5 }
+        ]
+      },
+      {
+        "name": "Earth",
+        "atmosphere": [
+          { "name": "Nitrogen", "percentage": 78 },
+          { "name": "Oxygen", "percentage": 21 },
+          { "name": "Other", "percentage": 1 }
+        ]
+      },
+      {
+        "name": "Mars",
+        "atmosphere": [
+          { "name": "Carbon Dioxide", "percentage": 95 },
+          {"name" : "Nitrogen", "percentage": 3},
+          { "name": "Argon", "percentage": 1.6 },
+          { "name": "Other", "percentage": 0.4}
+        ]
+      },
+      {
+        "name": "Jupiter",
+        "atmosphere": [
+          { "name": "Hydrogen", "percentage": 90 },
+          { "name": "Helium", "percentage": 10 }
+        ]
+      },
+      {
+        "name": "Saturn",
+        "atmosphere": [
+          { "name": "Hydrogen", "percentage": 96 },
+          { "name": "Helium", "percentage": 4 }
+        ]
+      },
+      {
+        "name": "Uranus",
+        "atmosphere": [
+          { "name": "Hydrogen", "percentage": 83 },
+          { "name": "Helium", "percentage": 15 },
+          { "name": "Methane", "percentage": 2 }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "atmosphere": [
+          { "name": "Hydrogen", "percentage": 79 },
+          { "name": "Helium", "percentage": 18 },
+          { "name": "Methane", "percentage": 3 }
+        ]
+      }
+    ]
+  }
+  

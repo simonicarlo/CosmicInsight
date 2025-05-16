@@ -1,0 +1,81 @@
+{
+    "planets": [
+      {
+        "name": "mercury",
+        "layers": [
+          { "name": "Molten Outer Core", "percentageRadius": 50 },
+          { "name": "Solid Inner Core", "percentageRadius": 35 },
+          { "name": "Rocky Mantle", "percentageRadius": 10 },
+          { "name": "Crust", "percentageRadius": 5 }
+        ]
+      },
+      {
+        "name": "venus",
+        "layers": [
+          { "name": "Core", "percentageRadius": 50 },
+          { "name": "Mantle", "percentageRadius": 45 },
+          { "name": "Crust", "percentageRadius": 5 }
+        ]
+      },
+      {
+        "name": "earth",
+        "layers": [
+          { "name": "Inner Core", "percentageRadius": 20 },
+          { "name": "Outer Core", "percentageRadius": 30 },
+          { "name": "Mantle", "percentageRadius": 45 },
+          { "name": "Crust", "percentageRadius": 5 }
+        ]
+      },
+      {
+        "name": "mars",
+        "layers": [
+          { "name": "Core", "percentageRadius": 35 },
+          { "name": "Basal Magma Ocean", "percentageRadius": 5 },
+          { "name": "Transition Zone", "percentageRadius": 10 },
+          { "name": "Middle Mantle", "percentageRadius": 25 },
+          { "name": "Lithospheric Mantle", "percentageRadius": 20 },
+          { "name": "Crust", "percentageRadius": 5 }
+        ]
+      },
+      {
+        "name": "jupiter",
+        "layers": [
+          { "name": "Core", "percentageRadius": 10 },
+          { "name": "Metallic Hydrogen", "percentageRadius": 50 },
+          { "name": "Molecular Hydrogen", "percentageRadius": 40 }
+        ]
+      },
+      {
+        "name": "saturn",
+        "layers": [
+          { "name": "Core", "percentageRadius": 15 },
+          { "name": "Metallic Hydrogen", "percentageRadius": 45 },
+          { "name": "Molecular Hydrogen", "percentageRadius": 40 }
+        ]
+      },
+      {
+        "name": "uranus",
+        "layers": [
+          { "name": "Core", "percentageRadius": 20 },
+          { "name": "Icy Mantle", "percentageRadius": 60 },
+          { "name": "Atmosphere", "percentageRadius": 20 }
+        ]
+      },
+      {
+        "name": "neptune",
+        "layers": [
+          { "name": "Core", "percentageRadius": 20 },
+          { "name": "Icy Mantle", "percentageRadius": 60 },
+          { "name": "Atmosphere", "percentageRadius": 20 }
+        ]
+      },
+      {
+        "name": "pluto",
+        "layers":[
+          {"name": "Silicate Core", "percentageRadius": 70},
+          {"name": "Liquid Water Ocean", "percentageRadius":20},
+          {"name": "Water Ice Crust", "percentageRadius":10}
+        ]
+      }
+    ]
+  }

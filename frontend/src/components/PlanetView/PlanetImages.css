@@ -1,0 +1,18 @@
+.planet-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+
+  overflow-y: auto;
+
+  max-height: 70dvh;
+
+  & img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}

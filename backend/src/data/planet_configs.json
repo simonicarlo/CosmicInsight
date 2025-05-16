@@ -1,0 +1,113 @@
+{
+  "sun": {
+    "id": 10,
+    "name": "sun",
+    "radius": 696000,
+    "mass": 1988500e24,
+    "tilt": 0,
+    "rotationSpeed": 0.0025,
+    "ring": false,
+    "texture": "/planetTextures/sun/main.jpg"
+  },
+  "mercury": {
+    "id": 199,
+    "name": "mercury",
+    "radius": 244,
+    "mass": 3.302e23,
+    "tilt": -0.01,
+    "rotationSpeed": 0.0000856,
+    "ring": false,
+    "texture": "/planetTextures/mercury/main.jpg"
+  },
+  "venus": {
+    "id": 299,
+    "name": "venus",
+    "radius": 6051.84,
+    "mass": 48.685e23,
+    "tilt": -177.36,
+    "rotationSpeed": -0.00000205,
+    "ring": false,
+    "texture": "/planetTextures/venus/main.jpg"
+  },
+  "earth": {
+    "id": 399,
+    "name": "earth",
+    "radius": 6371.01,
+    "mass": 5.97219e24,
+    "tilt": -23.44,
+    "rotationSpeed": 0.005,
+    "ring": false,
+    "texture": "/planetTextures/earth/main.jpg",
+    "cloudTextures": "/planetTextures/earth/clouds.jpg",
+    "cloudAlphaTextures": "/planetTextures/earth/clouds_alpha.jpg",
+    "bumpTextures": "/planetTextures/earth/bump.jpg",
+    "lightTextures": "/planetTextures/earth/lights.jpg",
+    "specularTextures": "/planetTextures/earth/specular.jpg"
+  },
+  "mars": {
+    "id": 499,
+    "name": "mars",
+    "radius": 3389.92,
+    "mass": 6.4171e23,
+    "tilt": -25.19,
+    "rotationSpeed": 0.00487,
+    "ring": false,
+    "texture": "/planetTextures/mars/main.jpg"
+  },
+  "jupiter": {
+    "id": 599,
+    "name": "jupiter",
+    "radius": 69911,
+    "mass": 189818.722e22,
+    "tilt": -3.13,
+    "rotationSpeed": 0.01206,
+    "ring": false,
+    "texture": "/planetTextures/jupiter/main.jpg"
+  },
+  "saturn": {
+    "id": 699,
+    "name": "saturn",
+    "radius": 58232,
+    "mass": 5.6834e26,
+    "tilt": -26.73,
+    "rotationSpeed": 0.01135,
+    "ring": true,
+    "innerRadius": 35,
+    "outerRadius": 50,
+    "texture": "/planetTextures/saturn/main.jpg",
+    "ringTexture": "/planetTextures/saturn/ring.png"
+  },
+  "uranus": {
+    "id": 799,
+    "name": "uranus",
+    "radius": 25362,
+    "mass": 86.813e24,
+    "tilt": -97.77,
+    "rotationSpeed": 0.00695,
+    "ring": true,
+    "innerRadius": 35,
+    "outerRadius": 40,
+    "texture": "/planetTextures/uranus/main.jpg",
+    "ringTexture": "/planetTextures/uranus/ring.png"
+  },
+  "neptune": {
+    "id": 899,
+    "name": "neptune",
+    "radius": 24624,
+    "mass": 102.409e24,
+    "tilt": -28.32,
+    "rotationSpeed": 0.00748,
+    "ring": false,
+    "texture": "/planetTextures/neptune/main.jpg"
+  },
+  "pluto": {
+    "id": 999,
+    "name": "pluto",
+    "radius": 1188.3,
+    "mass": 1.307e22,
+    "tilt": -122.53,
+    "rotationSpeed": 0.0008316,
+    "ring": false,
+    "texture": "/planetTextures/pluto/main.jpg"
+  }
+}

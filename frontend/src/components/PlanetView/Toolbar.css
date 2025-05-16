@@ -1,0 +1,74 @@
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  flex-wrap: wrap;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  position: relative;
+}
+
+.toolbar button {
+  background-color: none;
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 40%;
+}
+
+.dropdown {
+  width: 40%;
+  position: relative;
+}
+
+.dropdown button {
+  background-color: none;
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown button:hover {
+  background-color: var(--text-color);
+  color: var(--main-color);
+}
+
+.dropdown.show button {
+  border-radius: 0;
+}
+
+.dropdown-menu {
+  position: absolute; /* This allows the dropdown to be positioned outside the toolbar */
+  top: 100%; /* Positions it right below the dropdown button */
+  width: 100%; /* Match the width of the dropdown button */
+  flex-direction: column;
+  gap: 5px;
+  z-index: 1000; /* Ensure it appears above other elements */
+  overflow: hidden; /* Hide the dropdown until it is shown */
+}
+
+.dropdown.hide .dropdown-menu {
+  height: 0px;
+  transition: all 0.5s;
+}
+
+.dropdown.show .dropdown-menu {
+  height: 500px;
+  transition: all 0.5s;
+}
+
+.toolbar button.unselected:hover {
+  background-color: white;
+  color: var(--selected-text-color);
+}
+
+.toolbar button.selected {
+  background-color: white;
+  color: var(--selected-text-color); /* Adjust as needed */
+}

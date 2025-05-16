@@ -1,0 +1,38 @@
+.layout {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh; /* Ensures the page is always at least the height of the viewport */
+  width: 100%; /* Ensures the page is always at least the width of the viewport */
+  overflow: hidden; /* Hides content that overflows the page */
+
+  --header-height: 70px;
+  --footer-height: 40px;
+}
+
+/* Page Styles */
+.page {
+  height: 100dvh; /* Ensures the page is always at least the height of the viewport */
+  overflow-y: scroll; /* Enables scrolling if content overflows */
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  width: 100%;
+}
+
+.view {
+  margin: 0;
+  padding: calc(2 * var(--spacing));
+
+  min-width: 100%;
+  min-height: 100%;
+
+  margin-top: var(--header-height);
+  margin-bottom: var(--footer-height);
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: start;
+}

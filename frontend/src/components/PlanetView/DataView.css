@@ -1,0 +1,68 @@
+.data-view {
+  background-color: var(--main-color);
+  border-radius: 10px;
+
+  padding: var(--spacing);
+
+  flex: 1; /* Fills the height of the parent container */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.graphic-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+
+  width: 100%;
+
+  flex: 1 1 auto; /* Allows it to grow, but it won’t stretch unnecessarily */
+  overflow: hidden; /* Prevents overflow in the graphic container */
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center; /* Center all table content */
+  border-collapse: collapse; /* Collapse borders for cleaner appearance */
+  overflow:hidden;
+  border-radius: 10px;
+
+}
+
+th {
+  border-bottom: 1px solid rgb(126, 126, 126); /* White border for every row except the last */
+}
+
+th, td {
+  padding: 10px; /* Add space inside each cell */
+  text-align: center; /* Ensure text in th and td is centered */
+}
+
+tr th:nth-child(1) {
+  border-right: 1px solid rgb(126, 126, 126); 
+}
+
+tr td:nth-child(1) {
+  border-right: 1px solid rgb(126, 126, 126)
+}
+
+tr {
+  background-color: rgb(62, 62, 62);
+}
+th {
+  color:rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #000000, #232323); /* Gradient background for table headers */
+}
+
+

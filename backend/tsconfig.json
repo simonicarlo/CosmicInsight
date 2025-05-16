@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // Use CommonJS
+    "target": "ES2020", // Modern JavaScript features
+    "outDir": "./dist", // Compiled JavaScript output
+    "esModuleInterop": true, // CommonJS and ESModule compatibility
+    "allowSyntheticDefaultImports": true, // Easier imports for CommonJS
+    "skipLibCheck": true, // Skip checking types of dependencies
+    "sourceMap": true, // Enable source maps for debugging
+
+    /* Linting */
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cosmic-insight",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A full-stack React app to explore our solar system",
+  "scripts": {
+    "dev": "concurrently \"npm --workspace frontend run dev\" \"npm --workspace backend run dev\"",
+    "build": "npm --workspace frontend run build && npm run --workspace backend run build",
+    "start": "concurrently \"npm --workspace frontend run start\" \"npm --workspace backend run start\""
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "concurrently": "^7.0.0"
+  }
+}

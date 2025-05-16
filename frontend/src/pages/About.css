@@ -1,0 +1,18 @@
+.about-view {
+  align-items: center;
+}
+
+.about {
+  padding: calc(var(--spacing) * 2);
+  max-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+}

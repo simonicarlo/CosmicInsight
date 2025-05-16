@@ -1,0 +1,59 @@
+:root {
+  --spacing: 10px;
+  --border-radius: 10px;
+  --fill-space: calc(100% - (2 * var(--spacing)));
+
+  --low-priority: #1ddca4;
+  --medium-priority: #f4bf5e;
+  --high-priority: #ff5c51;
+
+  --accent-color: #9746ff;
+  --light-accent-color: #c69bff;
+
+  --shadow-color: #000000;
+}
+
+.light {
+  --main-color: #ffffff;
+  --main-hover-color: #f0f0f0;
+  --text-color: #444444;
+  --text-hover-color: #000000;
+  --background-color: #000000;
+  --background-color-transparent: rgba(0, 0, 0, 0.6);
+}
+
+.dark {
+  --main-color: #1e1e1e;
+  --main-hover-color: #ffffff;
+  --text-color: #ffffff;
+  --text-hover-color: #dddddd;
+  --background-color: #000000;
+  --background-color-transparent: rgba(0, 0, 0, 0.6);
+  --selected-text-color: #000000;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+button {
+  background-color: #363636;
+}
+
+.main::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, and Opera */
+}

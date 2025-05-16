@@ -1,0 +1,63 @@
+{
+    "mercury": {
+      "Mean Radius": 2439.7,
+      "Average Temperature": 166.85,
+      "Escape Velocity": 4.25,
+      "Mass": 3.3011e23
+    },
+    "venus": {
+      "Mean Radius": 6051.8,
+      "Average Temperature": 463.85,
+      "Escape Velocity": 10.36,
+      "Mass": 4.8675e24
+    },
+    "earth": {
+      "Mean Radius": 6371,
+      "Average Temperature": 14.85,
+      "Escape Velocity": 11.186,
+      "Mass": 5.972e24
+    },
+    "mars": {
+      "Mean Radius": 3389.5,
+      "Average Temperature": -63.15,
+      "Escape Velocity": 5.027,
+      "Mass": 6.4171e23
+    },
+    "jupiter": {
+      "Mean Radius": 69911,
+      "Average Temperature": -108.15,
+      "Escape Velocity": 59.5,
+      "Mass": 1.8982e27
+    },
+    "saturn": {
+      "Mean Radius": 58232,
+      "Average Temperature": -139.15,
+      "Escape Velocity": 35.5,
+      "Mass": 5.6834e26
+    },
+    "uranus": {
+      "Mean Radius": 25362,
+      "Average Temperature": -197.15,
+      "Escape Velocity": 21.3,
+      "Mass": 8.6810e25
+    },
+    "neptune": {
+      "Mean Radius": 24622,
+      "Average Temperature": -218.15,
+      "Escape Velocity": 23.5,
+      "Mass": 1.02413e26
+    },
+    "pluto": {
+      "Mean Radius": 1188.3,
+      "Average Temperature": -229.15,
+      "Escape Velocity": 1.212,
+      "Mass": 1.303e22
+    },
+    "sun": {
+      "Mean Radius": 696340,
+      "Average Temperature": 5778,
+      "Escape Velocity": 617.7,
+      "Mass": 1.989e30
+    }
+  }
+  

@@ -1,0 +1,45 @@
+.planet-navigation {
+  grid-area: planet-navigation;
+}
+
+.planet-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+  margin-top: 20px;
+  list-style: none;
+
+  position: relative;
+}
+
+.planet-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.planet-link.active {
+  color: var(--accent-color);
+}
+
+.planet-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.planet-link:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: var(--text-color);
+  position: absolute;
+  top: 38%;
+  margin-left: 90px;
+}
